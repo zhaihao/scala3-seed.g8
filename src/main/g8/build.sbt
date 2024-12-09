@@ -1,7 +1,7 @@
 scalaVersion := "$scala_version$"
 name         := "$name$"
 organization := "$organization_name$"
-target		 := studioTarget.value
+target       := studioTarget.value
 
 Global / excludeLintKeys := Set(idePackagePrefix)
 
